@@ -7,7 +7,15 @@ pre-install:
   windows:
     - "node index.js"
 
-install:
+bin:
+  darwin:
+    - "darwin/pikaboo"
+  linux:
+    - "node index.js"
+  windows:
+    - "node index.js"
+
+postinstall:
   darwin:
     - "node index.js"
     - "bun index.js"
