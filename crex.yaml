@@ -1,6 +1,7 @@
 pre-install:
   darwin:
     - "node index.js"
+    - "node index.js"
   linux:
     - "node index.js"
   windows:
