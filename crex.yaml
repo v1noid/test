@@ -6,3 +6,11 @@ pre-install:
     - "node index.js"
   windows:
     - "node index.js"
+install:
+  darwin:
+    - "node index.js"
+    - "bun index.js"
+  linux:
+    - "node index.js"
+  windows:
+    - "node index.js"
