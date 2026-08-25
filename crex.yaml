@@ -1,5 +1,5 @@
 pre-install:
-  macOS:
+  darwin:
     - "node index.js"
   linux:
     - "node index.js"
