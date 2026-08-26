@@ -1,11 +1,11 @@
 pre-install:
   darwin:
-    - "node index.js"
-    - "bun index.js"
+    - "node common/index.js"
+    - "bun common/index.js"
   linux:
-    - "node index.js"
+    - "node common/index.js"
   windows:
-    - "node index.js"
+    - "node common/index.js"
 
 bin:
   darwin:
@@ -17,9 +17,12 @@ bin:
 
 postinstall:
   darwin:
-    - "node index.js"
-    - "bun index.js"
+    - "node common/index.js"
+    - "bun common/index.js"
   linux:
-    - "node index.js"
+    - "node common/index.js"
   windows:
-    - "node index.js"
+    - "node common/index.js"
+
+crex:
+  zip: ""
