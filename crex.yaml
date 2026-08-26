@@ -25,4 +25,8 @@ postinstall:
     - "node common/index.js"
 
 crex:
-  zip: ""
+  zip:
+    darwin: "crex/darwin.zip"
+    linux: "crex/linux.zip"
+    windows: "crex/windows.zip"
+    common: "crex/common.zip"
