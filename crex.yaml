@@ -15,7 +15,7 @@ bin:
   windows:
     - "node index.js"
 
-postinstall:
+post-install:
   darwin:
     - "node common/index.js"
     - "bun common/index.js"
